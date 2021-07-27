@@ -13,6 +13,8 @@
 		71D6407B26B08C670019D2D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D6407926B08C670019D2D3 /* Main.storyboard */; };
 		71D6407D26B08C670019D2D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D6407C26B08C670019D2D3 /* Assets.xcassets */; };
 		71D6408026B08C670019D2D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D6407E26B08C670019D2D3 /* LaunchScreen.storyboard */; };
+		71D6409126B08CF50019D2D3 /* TagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71D6408F26B08CF50019D2D3 /* TagCell.xib */; };
+		71D6409226B08CF50019D2D3 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D6409026B08CF50019D2D3 /* TagCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		71D6407C26B08C670019D2D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71D6407F26B08C670019D2D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71D6408126B08C670019D2D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71D6408F26B08CF50019D2D3 /* TagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCell.xib; sourceTree = "<group>"; };
+		71D6409026B08CF50019D2D3 /* TagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				71D6407526B08C670019D2D3 /* SceneDelegate.swift */,
 				71D6407726B08C670019D2D3 /* ViewController.swift */,
 				71D6407926B08C670019D2D3 /* Main.storyboard */,
+				71D6409026B08CF50019D2D3 /* TagCell.swift */,
+				71D6408F26B08CF50019D2D3 /* TagCell.xib */,
 				71D6407C26B08C670019D2D3 /* Assets.xcassets */,
 				71D6407E26B08C670019D2D3 /* LaunchScreen.storyboard */,
 				71D6408126B08C670019D2D3 /* Info.plist */,
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D6409126B08CF50019D2D3 /* TagCell.xib in Resources */,
 				71D6408026B08C670019D2D3 /* LaunchScreen.storyboard in Resources */,
 				71D6407D26B08C670019D2D3 /* Assets.xcassets in Resources */,
 				71D6407B26B08C670019D2D3 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D6409226B08CF50019D2D3 /* TagCell.swift in Sources */,
 				71D6407826B08C670019D2D3 /* ViewController.swift in Sources */,
 				71D6407426B08C670019D2D3 /* AppDelegate.swift in Sources */,
 				71D6407626B08C670019D2D3 /* SceneDelegate.swift in Sources */,
